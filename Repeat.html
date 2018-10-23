@@ -3,20 +3,21 @@
 <head>
 <title>Repeat</title>
 <script>
-function print(message){
-  var prefix = "dumb and dumber: ";
-return prefix + message;
+function repeat(message , times){
+  var i;
+var text="";
+for (i = 0;i <times; i++){
+  text += message;
+}
+return text;
+
 }
 </script>
 </head>
 
-<body>``
-  <h2>How to use a function:</h2>
-
+<body>
   <script>
-// here you call the function to make work
-document.write(print("DAD!"));
+  document.write(repeat("i will not disturb in class!", 100))
     </script>
-
   </body>
   </html>
